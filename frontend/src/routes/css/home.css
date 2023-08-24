@@ -1,0 +1,71 @@
+/* Home.css */
+
+.Home {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .title3 {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .hero-image .image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .content {
+    max-width: 400px;
+    text-align: justify;
+    margin-left: 5px;
+  }
+  .content .learn1button{
+    margin-left: 260px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .feature {
+    max-width: 300px;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  .feature .para1{
+    text-align: justify;
+  }
+  .feature img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .learn1button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .learn1button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add any additional styles here as per your design preferences */
+  
